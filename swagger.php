@@ -4,8 +4,8 @@ require 'vendor/autoload.php';
 header("Content-Type: text/html");
 
 // Swagger UI na files load karo
-$swagger_ui_url = "https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/4.15.5/swagger-ui-bundle.js";
-$swagger_css_url = "https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/4.15.5/swagger-ui.css";
+$swagger_ui_url = "https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/5.20.1/swagger-ui-bundle.js";
+$swagger_css_url = "https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/5.20.1/swagger-ui.css";
 ?>
 
 <!DOCTYPE html>
