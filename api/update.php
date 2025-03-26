@@ -1,7 +1,6 @@
 <?php
 header("Content-Type: application/json");
 header("Access-Control-Allow-Methods: PUT");
-
 include_once '../config/database.php';
 
 $database = new Database();
