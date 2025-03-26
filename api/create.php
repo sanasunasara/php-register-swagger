@@ -9,7 +9,7 @@ $database = new Database();
 $db = $database->getConnection();
 
 // Get JSON input or try $_POST
-$data = json_decode(file_get_contents("php://input"), true);
+$data = json_decode(file_get_contents("php://input"));
 
 if (!$data) {
     $data = $_POST; // Try form-data
